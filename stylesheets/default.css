@@ -1,0 +1,256 @@
+/*
+
+  Colors used
+    #EE910E Primaary background (orange)
+    #EA703F Complimentry (red)
+    #5C5056 Contrast (gray)
+    #3E0A00 Text
+
+*/
+
+body {
+  background: #000000;
+  color: #3E0A00;
+  font-family: verdana, helvetica, arial;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  }
+
+h1 {
+  position: relative;
+  color: #EE910E;
+  font-size: 26px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  padding: 0;
+  z-index: 2;
+  }
+
+#strip {
+  height: 278px;
+  margin-top: -20px;
+  z-index: 1;
+  }
+
+#container {
+  background: #EE910E;
+  width: 800px;
+  }
+
+#sidemenu {
+  float: left;
+  clear: none;
+  width: 200px;
+  padding: 10px;
+  }
+
+#sidemenu ul {
+  color: #DE8109;
+  border: solid #DE8109;
+  border-width: 2px 0 0 0;
+  margin-top: 0;
+  margin-left: 10px;
+  padding: 0;
+  }
+
+#sidemenu li {
+  background: #F0B86D;
+  border: solid #DE8109;
+  border-width: 0 2px 2px 2px;
+  list-style: none;
+  margin: 0;
+  }
+
+#sidemenu li.application {
+  border-width: 2px;
+  margin-top: 6px;
+  }
+
+#sidemenu li a:link,
+#sidemenu li a:visited {
+  display: block;
+  border-left: 10px solid #E99A39;
+  color: #AE5100;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px;
+  }
+
+#sidemenu li a:active,
+#sidemenu li a:hover,
+#sidemenu li a.activepage {
+  background: #EAB068;
+  border-left: 10px solid #DE8109;
+  }
+
+#body {
+  float: right;
+  clear: none;
+  width: 540px;
+  margin-right: 15px;
+  padding: 10px;
+  }
+
+#body h2 {
+  background: #DE8109;
+  font-size: 18px;
+  border: solid #AE5100;
+  border-width: 1px 0;
+  padding: 1px 7px;
+  }
+
+#body li {
+  list-style: square;
+  }
+
+#body a {
+  color: #AE5100;
+  text-decoration: underline;
+}
+
+#body.index h2.speakupis_top {
+  background: none;
+  border: 0;
+  color: #AE5100;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  padding-bottom: 0;
+  }
+
+#body.index h2.speakupis_bottom {
+  margin-top: -6px;
+  padding-top: 2px;
+  padding-left: 15px;
+  }
+
+#body.index .video {
+   text-align: center;
+   margin: 10px 0;
+  }
+
+#body.comments .image_right h2 {
+  text-align: left;
+  clear: both;
+  }
+
+#body.comments .image_left h2 {
+  text-align: right;
+  clear: both;
+  }
+
+#body.comments .image_right img,
+#body.comments .image_left img {
+  background: #DE8109;
+  border: 1px solid #AE5100;
+  margin: 0 5px 15px 5px;
+  padding: 0px;
+  }
+
+#body.comments .image_right img {
+  float: right;
+  }
+
+#body.comments .image_left img {
+  float: left;
+  }
+
+#body.expectations {}
+#body.details {}
+#body.application {}
+
+#body.application #errors {
+  background: #DE8109;
+  border: 1px solid #AE5100;
+  padding: 0;
+  }
+
+#body.application #errors h3 {
+  background: #AE5100;
+  margin: 0;
+  padding: 7px;
+  }
+
+#body.application #errors ul {
+  margin: 10px;
+  padding-left: 25px;
+  }
+    
+#body.application fieldset {
+  border: 2px solid #DE8109;
+  margin: 20px 0;
+  }
+  
+#body.application fieldset legend {
+  background: #DE8109;
+  border: 1px solid #AE5100;
+  font-weight: bold;
+  padding: 2px 5px;
+  }
+
+#body.application table td.radio {
+  text-align: center;
+  width: 100px;
+}
+
+#body.application table {
+  text-align: center;
+  width: 515px;
+  margin: 10px;
+  border-collapse: collapse;
+  }
+
+#body.application table tr.first td {
+  border-top: 0;
+}
+
+#body.application table#week_pref_table {
+}
+
+#body.application table td {
+  border-top: 1px solid #DE8109;
+  text-align: left;
+}
+
+#body.application td.week_preference {
+  text-align: center;
+  width: 30px;
+}
+
+#body.application table#week_pref_table .label {
+  text-align: right;
+  width: 70px;
+}
+
+#body.application dl.text_input dt {
+  float: left;
+  text-align: right;
+  width: 220px;
+  padding: 0 10px;
+  }
+
+#body.application dl.text_input input,
+#body.application dl.text_input select {
+  background: #F0B86D;
+  color: #3E0A00;
+  border: 2px solid #DE8109;
+  vertical-align: middle;
+  }
+
+#body.application dd textarea {
+  background: #F0B86D;
+  color: #3E0A00;
+  border: 2px solid #DE8109;
+  width: 420px;
+  height: 280px;
+  margin: 10px;
+  }
+
+#body.application input.button {
+  background: #F0B86D;
+  color: #3E0A00;
+  border: 2px solid #DE8109;
+  }
